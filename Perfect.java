@@ -1,7 +1,7 @@
 /**
  *  Gets a command-line argument (int), and chekcs if the given number is perfect.
  */
-public class perfect {
+public class Perfect {
     public static void main(String[] args) {
     int a = Integer.parseInt(args[0]);
     int j = 1;

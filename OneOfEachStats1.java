@@ -3,8 +3,7 @@
  *  to have children until they have at least one child of each gender.
  *  The program expects to get one command-line argument: an int value
  * 	that determines how many families to simulate.
- */
-import java.util.Random;
+ */import java.util.Random;
 public class OneOfEachState1 {
     public static void main(String[] args) {
     int T = Integer.parseInt(args[0]);

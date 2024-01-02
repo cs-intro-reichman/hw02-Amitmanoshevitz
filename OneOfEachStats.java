@@ -22,8 +22,8 @@ public class OneOfEachStats {
 
 while (x<T){
     x++;
-    double ran1 = generator.nextDouble();
-    double ran2 = generator.nextDouble();
+    double ran1 = generator.nextDouble(seed);
+    double ran2 = generator.nextDouble(seed);
     
 
     /////////////////////////////
@@ -35,7 +35,7 @@ while (x<T){
         if(ran2>=0.5){
             kid = kid + " g";}
         else{kid = kid + " b";}
-            ran2 = Math.random();
+            ran2 = generator.nextDouble();
             num++;}
 
     if(ran2>=0.5){ 

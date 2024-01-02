@@ -20,7 +20,7 @@ public class Reverse {
 
        if(s.length()%2 == 0){
             char mid = s.charAt(mid1-1);
-            System.out.println(mid);
+            System.out.println("The middle character is "+mid);
         }else{ 
             char mid = s.charAt(mid1);
             System.out.println("The middle character is "+mid);
